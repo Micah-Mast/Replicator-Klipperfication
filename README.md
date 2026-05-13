@@ -31,3 +31,5 @@ More information can be found in the [full report](report.pdf).
 | HDMI Adapter             | Micro HDMI to HDMI Adapter              | 3.49  |                      | https://www.aliexpress.us/item/3256803000529672.html |
 | 5V Buck Converter        | 24 → 5V Buck Converter                  | 7.49  | Overkill and only needed if onboard one fails | https://www.aliexpress.us/item/2255799834871688.html |
 | Touch Screen Adapter     | AR1100 Resistive Touch → USB Controller | 9.95  |                      | https://www.amazon.com/Noctua-NF-A4x10-24V-PWM-Applications/dp/B0CN39MCPL |
+
+## 
