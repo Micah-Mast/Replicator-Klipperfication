@@ -1,0 +1,2 @@
+# Using these Files
+These files belong on the printer itself and can be accessed using the web GUI. The GUI can be accessed by going to replicator.local on the same network as the printer. The MAC Address can be found on a sticker on the bottom of the BTT-Pi.

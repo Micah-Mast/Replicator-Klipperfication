@@ -6,7 +6,7 @@ The intent of this project was to revive a MakerBot Replicator+ by replacing its
 
 <p align="center">
   <img src="sideview.png" alt="Side view" width="300" />
-  <img src="front-1.png" alt="Front view" width="300" />
+  <img src="front.png" alt="Front view" width="300" />
 </p>
 
 More information can be found in the [full report](report.pdf).
@@ -32,4 +32,12 @@ More information can be found in the [full report](report.pdf).
 | 5V Buck Converter        | 24 → 5V Buck Converter                  | 7.49  | Overkill and only needed if onboard one fails | https://www.aliexpress.us/item/2255799834871688.html |
 | Touch Screen Adapter     | AR1100 Resistive Touch → USB Controller | 9.95  |                      | https://www.amazon.com/Noctua-NF-A4x10-24V-PWM-Applications/dp/B0CN39MCPL |
 
-## 
+## Ideas for the Future
+New Nozzle - I think the current nozzle is the main source of bad prints currently. 
+Cable Management - The way the cables currently hang could very well get in the way of a print. They are also an eyesore. The wires in the back panel also need some work. Not all wires have the correct connector so they are hotglued to the controller. This has caused problems with motors vibrating loose over time.
+USB hub in the UI console - Adding this would reduce the amount of wires going to the screen from 4 down to 1. The BTT-Pi can output video over USB-C so not only would the usb cables be reduced to one but the HDMI cable could be removed as well.
+Input Shaping - I bought an input shaper but ran out of time to set it up fully. This would improve print quality without much effort and some of my efforts can be found in the input_shaper.cfg file.
+PEI Bed - This was a result of cost, but magnetic PEI beds are not absurdly expensive for the size bed on this printer and would immediately improve the ease-of-use of the printer compared to the glass bed on there now.
+Reprint Printhead in Black and Red - not a necessary upgrade but it would be nice if the actual product matched the renders.
+Foodsafe Upgrade - it would be cool to turn this into a printer designated to printing food-safe filament. Really the only components that would need to be changed are the nozzle and heatbreak which need to be upgraded anyway.
+Fine-Tune Slicer Settings - This is another thing that just takes time that I did not have. It just takes a lot of measuring and test prints.
